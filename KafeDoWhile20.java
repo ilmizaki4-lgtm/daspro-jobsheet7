@@ -5,7 +5,7 @@ public class KafeDoWhile20 {
         Scanner sc = new Scanner (System.in);
         int kopi,teh,roti;
         String namaPelanggan;
-        int hargaKopi=12000,hargaTeh=7000,hargaRoti=20000;
+        int hargaKopi=10000,hargaTeh=5000,hargaRoti=17000;
         double totalHarga;
 
         do {
