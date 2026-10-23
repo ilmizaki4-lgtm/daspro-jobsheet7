@@ -14,9 +14,15 @@ public class SiakadFor20 {
              if (nilai < terendah) {
                 terendah = nilai;
              }
-            
+            if (nilai >= 64) {
+                lulus++;
+            } else {
+                tdkLulus++;
+            }    
          }
          System.out.println("nilai tertinggi : " + tertinggi);
          System.out.println("nilai terendah: " + terendah);
+         System.out.println("Mahasiswa lulus:" + lulus );
+         System.out.println("Mahasiswa tidak lulus: " + tdkLulus);
     }
 }
